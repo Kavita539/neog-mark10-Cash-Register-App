@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans&display=swap');
+
+:root {
+    --primary-color: #044935;
+    --secondary-color: #24362b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D1FAE5;
+    color: var(--primary-color);
+    font-family: "Roboto Mono", monospace;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    max-width: 550px;
+    min-height: 90vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.card-header {
+    display: grid;
+    place-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px dotted var;
+    align-items: center;
+}
+
+.name {
+    margin: 0rem;
+    color: rgb(229, 251, 200);
+    font-size: 1.3rem;
+    font-family: 'Dancing Script', cursive;
+    padding: 0.5rem;
+}
+
+
+.heading {
+    color: rgb(229, 251, 200);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.card-header p {
+    width: 80%;
+    color: #A7F3D0;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+.card-body {
+    padding: 1rem 0;
+}
+
+.input-group {
+    width: 100%;
+    display: block;
+    place-items: center;
+    padding: 0.5rem 0;
+    margin:auto;
+    /* padding: 1rem; */
+}
+
+.input-group label,
+label {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.75rem 0;
+    color: white;
+}
+
+.input-group input {
+    display: block;
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.75rem;
+    margin: auto;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    margin: 1.5rem 0;
+    color: white;
+}
+
+.btn:hover {
+    background-color: var(--primary-background);
+    color: var(--secondary-color);
+}
+
+.hidden {
+    display: none;
+}
+
+.card-footer {
+    padding: 0.75rem 0;
+}
+
+.output-table {
+    margin: 1rem;
+}
+
+table,
+th,
+td {
+    background-color: white;
+    color: white;
+    background-color: var(--secondary-color);
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: 2px solid var(--primary-color);
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    font-weight: lighter;
+}
