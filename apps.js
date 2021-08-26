@@ -53,7 +53,7 @@ function calculateChange(cash, bill) {
 }
 
 function error(message) {
-    errorMessage.style.display = block;
+    errorMessage.style.display = "block";
     errorMessage.innerText = message;
     output.style.display = "none";
 }

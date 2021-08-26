@@ -120,6 +120,15 @@ label {
 
 .card-footer {
     padding: 0.75rem 0;
+    place-items: center;
+}
+
+.card-footer p {
+    width: 80%;
+    color: #A7F3D0;
+    font-weight: 2rem;
+    padding: 0.5rem;
+    margin: auto;
 }
 
 .output-table {
@@ -143,3 +152,52 @@ td {
 th {
     font-weight: lighter;
 }
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footHeading {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin: 0.5rem auto 0 auto;
+}
+
+
+li {
+    display: inline;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    
+}
+
+
+a{
+    color: rgb(229, 251, 200);
+    text-decoration: none;
+	padding: 0.5rem;
+	font-weight: 1000;
+	font-size: 1rem;
+}
+
+a:hover {
+    color: black;
+}
+
+
+.item-active {
+	border-bottom: 2px solid;
+	font-weight: bold;
+}
+
+
