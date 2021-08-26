@@ -4,8 +4,10 @@
 
 # Technology used :
 1.JavaScript
-1.HTML5
-1.CSS3
+
+2.HTML5
+
+3.CSS3
 
 # How to use?
 1. Go to the mentioned URL
