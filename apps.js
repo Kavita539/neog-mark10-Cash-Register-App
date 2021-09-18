@@ -31,7 +31,7 @@ btnCheck.addEventListener("click", () => {
     if (billValue > 0 && cashValue > 0) {
         let returnAmount = cashValue - billValue;
         if(Number(cashValue) < Number(billValue)) {
-            error("Cash entered is lesser than bill amount");
+            error("Cash entered is lesser than the entered bill amount");
             output.style.display = "none";
             return;
         }else if (returnAmount < 1) {
